@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>+150 Moldes Infantis - Oferta Especial</title>
+    <meta name="description" content="Acesso imediato a mais de 150 moldes de roupas infantis prontos para imprimir.">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar">
+        <div class="nav-brand">
+            <i class="fa-solid fa-scissors"></i> Moldes<b>Infantis</b>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-content animate-fade-in-up">
+
+            <div class="live-counter">
+                <span class="live-dot"></span>
+                <strong>127</strong> pessoas vendo agora
+            </div>
+
+            <h1>
+                +150 Moldes para quem quer <br>
+                <span class="text-primary-gradient">Começar a Costurar Hoje</span>
+            </h1>
+
+            <p>
+                Chega de perder tempo procurando moldes ruins na internet.
+                Tenha um acervo completo, testado e <strong>pronto para imprimir</strong>.
+            </p>
+
+            <!-- Custom Video Player -->
+            <div class="video-container"
+                style="max-width: 450px; margin: 50px auto; position: relative; border-radius: 30px; box-shadow: 0 25px 50px rgba(244, 114, 182, 0.3); background: #000; border: 8px solid white; overflow: hidden; aspect-ratio: 9/16;">
+                <video id="vsl-video" style="width: 100%; height: 100%; object-fit: cover; cursor: pointer;"
+                    playsinline>
+                    <source src="vslmoldes.mp4" type="video/mp4">
+                </video>
+
+                <!-- Play Overlay -->
+                <div id="play-overlay"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: center; align-items: center; background: rgba(0,0,0,0.4); cursor: pointer; transition: opacity 0.3s ease;">
+                    <div
+                        style="width: 80px; height: 80px; background: rgba(255,255,255,0.9); border-radius: 50%; display: flex; justify-content: center; align-items: center; margin-bottom: 15px; box-shadow: 0 0 20px rgba(0,0,0,0.2);">
+                        <i class="fas fa-play"
+                            style="color: var(--primary-pink); font-size: 2.5rem; margin-left: 5px;"></i>
+                    </div>
+                    <p
+                        style="color: white; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+                        Toque para iniciar</p>
+                </div>
+
+                <!-- Pause State Indicator -->
+                <div id="pause-overlay"
+                    style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; display: none; flex-direction: column; justify-content: center; align-items: center; background: rgba(0,0,0,0.4); pointer-events: none;">
+                    <p
+                        style="color: white; font-weight: 800; text-transform: uppercase; letter-spacing: 1px; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">
+                        Clique para continuar assistindo</p>
+                </div>
+
+                <!-- Progress Bar -->
+                <div
+                    style="position: absolute; bottom: 0; left: 0; width: 100%; height: 4px; background: rgba(255,255,255,0.2); z-index: 10;">
+                    <div id="video-progress"
+                        style="width: 0%; height: 100%; background: var(--primary-green); transition: width 0.1s linear;">
+                    </div>
+                </div>
+            </div>
+
+            <a href="#planos" class="btn btn-primary btn-lg btn-pulse delay-300">
+                QUERO MEU ACERVO DE MOLDES <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <div
+                style="margin-top: 2rem; display: flex; justify-content: center; gap: 1rem; font-size: 0.9rem; color: var(--text-muted);">
+                <span><i class="fa-solid fa-check-circle" style="color: var(--success);"></i> Compra Segura</span>
+                <span><i class="fa-solid fa-check-circle" style="color: var(--success);"></i> Acesso Imediato</span>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" style="background: white;">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que você vai <span class="text-gradient">receber?</span></h2>
+                <p>Muito mais do que apenas arquivos PDF. Um passo a passo para o sucesso.</p>
+            </div>
+
+            <div class="features-grid">
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-print"></i></div>
+                    <h3>Prontos para Imprimir</h3>
+                    <p>Arquivos configurados para folha A4. É só baixar e imprimir na sua impressora comum.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-ruler-combined"></i></div>
+                    <h3>Tamanho Real</h3>
+                    <p>Modelagem exata com medidas corretas. Sem surpresas na hora da costura.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-folder-open"></i></div>
+                    <h3>Tudo Organizado</h3>
+                    <p>Pastas separadas por categorias e idades (0 a 12 anos) para você não perder tempo.</p>
+                </div>
+                <div class="feature-box">
+                    <div class="feature-icon"><i class="fa-solid fa-video"></i></div>
+                    <h3>Aula de Bônus</h3>
+                    <p>Ensinamos passo a passo como imprimir e montar seus moldes corretamente.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section class="showcase">
+        <div class="container">
+            <div class="section-header">
+                <h2>Moldes para <span class="text-primary-gradient">Todas as Ocasiões</span></h2>
+                <p>Veja algumas das categorias que você terá acesso:</p>
+            </div>
+
+            <div class="gallery-grid">
+                <div class="gallery-item">
+                    <i class="fa-solid fa-person-dress" style="color: #FF8E53;"></i>
+                    <div class="gallery-label">Vestidos</div>
+                </div>
+                <div class="gallery-item">
+                    <i class="fa-solid fa-shirt" style="color: #4facfe;"></i>
+                    <div class="gallery-label">Camisetas</div>
+                </div>
+                <div class="gallery-item">
+                    <i class="fa-solid fa-child" style="color: #f5576c;"></i>
+                    <div class="gallery-label">Conjuntos</div>
+                </div>
+                <div class="gallery-item">
+                    <i class="fa-solid fa-socks" style="color: #F59E0B;"></i>
+                    <div class="gallery-label">Pijamas</div>
+                </div>
+                <div class="gallery-item">
+                    <i class="fa-solid fa-hat-cowboy" style="color: #8b5cf6;"></i>
+                    <div class="gallery-label">Acessórios</div>
+                </div>
+                <div class="gallery-item">
+                    <i class="fa-solid fa-baby" style="color: #10B981;"></i>
+                    <div class="gallery-label">Bebês</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials" style="background: var(--bg-soft);">
+        <div class="container">
+            <div class="section-header">
+                <h2>O que nossos <span class="text-gradient">clientes</span> estão dizendo</h2>
+                <div class="delay-200">
+                    <!-- Placeholder animation class to match user intent -->
+                </div>
+            </div>
+
+            <div class="testimonials-grid animate-fade-in-up delay-200">
+                <!-- Testimonial 1 -->
+                <div class="testimonial-image-card">
+                    <img src="https://i.imgur.com/gieHKK8.jpg" alt="Depoimento Cliente 1" referrerpolicy="no-referrer">
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="testimonial-image-card">
+                    <img src="https://i.imgur.com/IlJ3U2N.jpg" alt="Depoimento Cliente 2" referrerpolicy="no-referrer">
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="testimonial-image-card">
+                    <img src="https://i.imgur.com/d431rdt.jpg" alt="Depoimento Cliente 3" referrerpolicy="no-referrer">
+                </div>
+            </div>
+
+            <p style="text-align: center; margin-top: 2rem; color: var(--text-muted); font-size: 0.9rem;">
+                <i class="fa-solid fa-arrow-left"></i> Deslize para ver mais <i class="fa-solid fa-arrow-right"></i>
+            </p>
+        </div>
+    </section>
+
+    <!-- Pricing Section -->
+    <section id="planos" class="pricing-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Escolha seu <span class="text-gradient">Plano Ideal</span></h2>
+                <p>Comece hoje mesmo com um preço especial.</p>
+            </div>
+
+            <div class="pricing-container">
+                <!-- Basic Plan -->
+                <div class="pricing-card">
+                    <div class="price-header">
+                        <h3>Plano Básico</h3>
+                        <p class="old-price">R$ 49,90</p>
+                        <div class="current-price">
+                            <span class="currency">R$</span>
+                            <span class="amount">10</span>
+                            <span class="cents">,00</span>
+                        </div>
+                        <p class="savings">Você economiza R$ 39,90</p>
+                    </div>
+
+                    <a href="#" class="btn btn-lg"
+                        style="width: 100%; background: #f3f4f6; color: var(--text-main);">ESCOLHER BÁSICO</a>
+
+                    <ul class="features-list">
+                        <li><i class="fa-solid fa-check check-icon"></i> 150 Moldes Selecionados</li>
+                        <li><i class="fa-solid fa-check check-icon"></i> Acesso Vitalício</li>
+                        <li><i class="fa-solid fa-check check-icon"></i> Garantia de 7 Dias</li>
+                        <li style="opacity: 0.5; text-decoration: line-through;"><i class="fa-solid fa-times"></i> Sem
+                            Bônus Exclusivos</li>
+                        <li style="opacity: 0.5; text-decoration: line-through;"><i class="fa-solid fa-times"></i> Sem
+                            Suporte Prioritário</li>
+                    </ul>
+                </div>
+
+                <!-- Complete Plan Card -->
+                <div class="pricing-card featured animate-pulse-subtle">
+                    <div class="best-seller-badge"><i class="fa-solid fa-crown"></i> MAIS VENDIDO</div>
+                    <h3 style="font-size: 1.8rem; margin-bottom: 0.5rem; color: var(--primary-pink);">Plano Completo
+                    </h3>
+                    <p style="color: var(--text-muted); font-size: 0.9rem;">Tudo o que você precisa e mais</p>
+
+                    <div class="price-value" style="color: var(--primary-pink);">
+                        <span class="currency">R$</span>27<span class="cents">,00</span>
+                    </div>
+                    <div class="old-price">De R$ 67,90</div>
+                    <div class="savings-badge">Economize R$ 40,90</div>
+
+                    <!-- Bonuses -->
+                    <div class="bonus-container">
+                        <span class="bonus-title">🎁 3 Bônus Exclusivos Inclusos:</span>
+                        <div class="bonus-item"><i class="fa-solid fa-star"></i> <span>Apostila de Cores e
+                                Combinações</span></div>
+                        <div class="bonus-item"><i class="fa-solid fa-star"></i> <span>Guia de Precificação</span></div>
+                        <div class="bonus-item"><i class="fa-solid fa-star"></i> <span>Lista de Fornecedores</span>
+                        </div>
+                    </div>
+
+                    <ul class="features-list">
+                        <li><i class="fa-solid fa-check check-icon"></i> <strong>TUDO DO PLANO BÁSICO+</strong></li>
+                        <li><i class="fa-solid fa-check check-icon"></i> <strong>Acesso Vitalício</strong></li>
+                        <li><i class="fa-solid fa-check check-icon"></i> <strong>Atualizações Gratuitas</strong></li>
+                        <li><i class="fa-solid fa-check check-icon"></i> Vídeoaula de Impressão</li>
+                        <li><i class="fa-solid fa-check check-icon"></i> Suporte Prioritário VIP</li>
+                    </ul>
+
+                    <a href="https://www.ggcheckout.com/checkout/v5/VHlvrKGfe2q7ycypkVBb"
+                        class="btn btn-primary btn-lg btn-pulse" style="width: 100%;">QUERO O PACOTE COMPLETO</a>
+
+                    <div class="secure-payment">
+                        <i class="fa-solid fa-lock"></i> Pagamento 100% Seguro
+                    </div>
+                </div>
+            </div>
+
+            <!-- Guarantee Section -->
+            <div class="guarantee-box animate-fade-in-up delay-300">
+                <i class="fa-solid fa-shield-halved guarantee-icon"></i>
+                <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">Garantia Incondicional de 7 Dias</h3>
+                <p>Se você não gostar do material por qualquer motivo, nós devolvemos 100% do seu dinheiro. Sem
+                    perguntas, sem burocracia.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Toast Notification -->
+    <div class="toast-notification" id="sales-toast">
+        <div class="toast-icon">
+            <i class="fa-solid fa-check"></i>
+        </div>
+        <div>
+            <p style="font-size: 0.9rem; margin-bottom: 0px;"><strong id="toast-name">Maria S.</strong> acabou de
+                comprar</p>
+            <p style="font-size: 0.8rem; color: var(--text-muted); margin-bottom: 0;" id="toast-desc">Plano Completo -
+                Há 2 minutos</p>
+        </div>
+    </div>
+
+    <!-- Upsell Modal -->
+    <div class="modal-overlay" id="upsell-modal">
+        <div class="modal-content">
+            <div class="modal-close" id="close-modal"><i class="fa-solid fa-times"></i></div>
+            <div class="modal-badge">ESPERE! OFERTA RELÂMPAGO ⚡</div>
+
+            <h2 style="margin-top: 1rem;">Leve o <span class="text-primary-gradient">Pacote Completo</span></h2>
+            <p style="color: var(--text-muted); margin-bottom: 0.5rem;">Não pague R$ 27,00. Leve tudo agora por apenas:
+            </p>
+
+            <div class="modal-price">
+                <span style="font-size: 1.5rem; vertical-align: super;">R$</span>17<span
+                    style="font-size: 1.5rem;">,00</span>
+            </div>
+
+            <ul class="features-list"
+                style="text-align: left; background: #fff5f5; padding: 1.5rem; border-radius: 15px; margin-bottom: 2rem;">
+                <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check check-icon"></i> <strong>+150
+                        Moldes</strong> (Ao invés de 50)</li>
+                <li style="margin-bottom: 0.5rem;"><i class="fa-solid fa-check check-icon"></i> <strong>Vídeoaula de
+                        Impressão</strong></li>
+                <li style="margin-bottom: 0;"><i class="fa-solid fa-check check-icon"></i> <strong>Suporte
+                        Prioritário</strong></li>
+            </ul>
+
+            <a href="https://www.ggcheckout.com/checkout/v5/yWYNiZ88BY07FcrP30ry"
+                class="btn btn-primary btn-lg btn-pulse" style="width: 100%; margin-bottom: 1rem;">SIM! QUERO
+                POR R$ 17,00</a>
+
+            <a href="#" id="keep-basic"
+                style="font-size: 0.9rem; color: var(--text-muted); text-decoration: underline;">Não obrigado, quero
+                apenas o básico por R$ 10</a>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 Moldes Infantis. Todos os direitos reservados.</p>
+            <p style="font-size: 0.8rem; opacity: 0.7; margin-top: 1rem;">
+                Este site não é afiliado ao Facebook ou a qualquer entidade do Facebook.
+            </p>
+        </div>
+    </footer>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            // ... (Previous Video Logic) ...
+
+            // Upsell Modal Logic
+            const modal = document.getElementById('upsell-modal');
+            const btnBasic = document.querySelector('a[href="#"].btn.btn-lg:not(.btn-primary)'); // Targeting Basic Button
+            const closeModal = document.getElementById('close-modal');
+            const keepBasic = document.getElementById('keep-basic');
+
+            // Add ID to Basic Button for easier selection if not present
+            if (btnBasic) {
+                btnBasic.addEventListener('click', (e) => {
+                    e.preventDefault();
+                    modal.style.display = 'flex';
+                    // Small delay to allow display flex to apply before opacity transition
+                    setTimeout(() => {
+                        modal.classList.add('show');
+                    }, 10);
+                });
+            }
+
+            function hideModal() {
+                modal.classList.remove('show');
+                setTimeout(() => {
+                    modal.style.display = 'none';
+                }, 300);
+            }
+
+            closeModal.addEventListener('click', hideModal);
+
+            keepBasic.addEventListener('click', (e) => {
+                e.preventDefault();
+                hideModal();
+                // Redirect to Basic Plan Checkout (R$ 10)
+                window.location.href = "https://www.ggcheckout.com/checkout/v5/YrNTsBzhfOODzwdqetZ9";
+            });
+
+            // Close on click outside
+            modal.addEventListener('click', (e) => {
+                if (e.target === modal) {
+                    hideModal();
+                }
+            });
+
+            // Video Player Logic
+            const video = document.getElementById('vsl-video');
+            const playOverlay = document.getElementById('play-overlay');
+            const pauseOverlay = document.getElementById('pause-overlay');
+            const progressBar = document.getElementById('video-progress');
+
+            function togglePlay() {
+                if (video.paused) {
+                    video.play();
+                    playOverlay.style.opacity = '0';
+                    setTimeout(() => playOverlay.style.display = 'none', 300);
+                    pauseOverlay.style.display = 'none';
+                } else {
+                    video.pause();
+                    pauseOverlay.style.display = 'flex';
+                }
+            }
+
+            playOverlay.addEventListener('click', togglePlay);
+            video.addEventListener('click', togglePlay);
+
+            video.addEventListener('timeupdate', () => {
+                const percentage = (video.currentTime / video.duration) * 100;
+                progressBar.style.width = percentage + '%';
+            });
+
+            video.addEventListener('play', () => {
+                playOverlay.style.opacity = '0';
+                setTimeout(() => playOverlay.style.display = 'none', 300);
+                pauseOverlay.style.display = 'none';
+            });
+
+            // Dynamic Sales Notification Logic
+            const toast = document.getElementById('sales-toast');
+            const toastName = document.getElementById('toast-name');
+            const toastDesc = document.getElementById('toast-desc');
+
+            const names = [
+                "Maria S.", "Ana P.", "Fernanda C.", "Juliana M.", "Patricia R.",
+                "Camila T.", "Bruna L.", "Larissa F.", "Renata B.", "Cristiane D."
+            ];
+
+            const places = [
+                "São Paulo, SP", "Rio de Janeiro, RJ", "Curitiba, PR", "Belo Horizonte, MG",
+                "Porto Alegre, RS", "Salvador, BA", "Brasília, DF", "Recife, PE"
+            ];
+
+            const plans = ["Plano Completo", "Plano Básico", "Plano Completo", "Plano Completo"]; // Weight towards complete
+
+            function showToast() {
+                // Generate random data
+                const name = names[Math.floor(Math.random() * names.length)];
+                const place = places[Math.floor(Math.random() * places.length)];
+                const plan = plans[Math.floor(Math.random() * plans.length)];
+                const time = Math.floor(Math.random() * 59) + 1; // 1 to 59 minutes
+
+                // Update Content
+                toastName.innerHTML = `${name} de ${place}`;
+                toastDesc.innerHTML = `${plan} - Comprou há ${time} min`;
+
+                // Show
+                toast.classList.add('show');
+
+                // Hide after 5 seconds
+                setTimeout(() => {
+                    toast.classList.remove('show');
+                }, 5000);
+            }
+
+            // Initial delay
+            setTimeout(() => {
+                showToast();
+                // Repeat every 20 seconds
+                setInterval(showToast, 20000);
+            }, 5000);
+        });
+    </script>
+
+</body>
+
+</html>
